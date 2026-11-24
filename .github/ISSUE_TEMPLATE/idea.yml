@@ -1,0 +1,24 @@
+name: An idea for the language
+description: A problem you can't solve well in Stilt today. An idea is discussed here until it can become an RFC.
+labels: [idea]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What do you want to write, and what stops you or costs you? Start from the problem, not from a solution.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: A plain example
+      description: The program you would like to write, or the program you have to write today.
+      render: stilt
+    validations:
+      required: true
+  - type: textarea
+    id: ideas
+    attributes:
+      label: Ideas for a solution
+      description: Optional. How might the language help?
